@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>quoteBox & heroconvertor</title>
+        <link rel="stylesheet" href="./quotebox/style.css">
+        <link rel="stylesheet" href="./heroConverter/style.css">
+
+    </head>
+    <body>
+        <h2 class="hero-title">Hero Convertor</h2>
+        <div class="hero-converter">
+            <p class="content-text">Convert: </p>
+            <input type="text" id="num-value"/>
+            <select id="select-mass-type">
+                <option value="lb-to-kg">lb to kg</option>
+                <option value="kg-to-lb">kg to lb</option>
+            </select>
+            <button id="convert-button">Go</button>
+            <span id="result"></span>
+        </div>
+
+        <div class="quote-box">
+            <div class="quote-display">
+                <p id="quote"></p>
+            </div>
+            <div class="quote-changer">
+                <table class="button-box">
+                    <tr>
+                        <td>
+                            <button id="style0" class="style-selector">0</button>
+                        </td>
+                        <td>
+                            <button id="style1" class="style-selector">1</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="style2" class="style-selector">2</button>
+                        </td>                    
+                        <td>
+                            <button id="style3" class="style-selector">3</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        </br>
+        <style>
+            .links{
+                text-align: center;
+            }
+            .link-text{
+                text-decoration: none;
+                color: black;
+                font-weight: normal;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 10px;
+                border-style: solid;
+                border-width: 2px;
+                border-color: black;
+                margin: 5px;
+            }
+        </style>
+        <h3 class="links">
+            <a href="math/math.html" class="link-text">Task 2</a>
+            <a href="magic/magic.html" class="link-text">Task 3</a>
+        </h3>
+        <script src="./quotebox/quoteBox.js"></script>
+        <script src="./heroConverter/convertor.js"></script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-magic">
+        <h3 class="item-header" id="magic-header">Magic!</h3>
+        <textarea id="magic" type="text" rows="15" cols="54"></textarea>
+        <div id="magic-buttons">
+            <button onclick="clearAll()" type="button" id="clear">Clear it</button>
+            <button onclick="capitalize()" type="button" id="caps" value="OFF">Capitalize</button>
+            <button onclick="sortLines()" type="button" id="sort">Sort</button>
+            <button onclick="reverseLines()" type="button" id="reverse-magic">Reverse</button>
+            <button onclick="stripBlank()" type="button" id="strip">Strip Blank</button>
+            <button onclick="addLineNumbers()" type="button" id="addNum">Add Numbers</button>
+            <button onclick="shuffle()" type="button" id="shuffle">Shuffle</button>
+        </div>
+    </div>
+    <script src="magic.js"></script>
+</body>
+</html>
